@@ -11,11 +11,11 @@ class Solution(object):
         haydummy = 0 #pointer for haystack
         needummy = 0 #pointer for needle
         returning = -1
-        done = false
+        done = False
         while (not done):
             
             if haydummy == len(haystack) -1:
-                done = true
+                done = True
             else: 
                 if haystack[haydummy] == needle[needummy]:
                     while (needummy < len(needummy)) - 1:

@@ -6,11 +6,7 @@ import random
 import re
 import sys
 
-#
-# Complete the 'plusMinus' function below. an 
-#
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
+#PASSED
 
 def plusMinus(arr):
     # Write your code here
