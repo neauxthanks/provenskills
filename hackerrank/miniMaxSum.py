@@ -11,7 +11,7 @@ import sys
 def miniMaxSum(arr):
     # Write your code here
     min = arr[0]
-    max = 0
+    max = arr[0]
     sum = 0
     for x in range(5):
         sum += arr[x] 
